@@ -21,49 +21,49 @@ export default function Roteador() {
         if (tela === 'Home') {
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <Home tema="purple lighten-4" />
                 </>
             )
         } else if (tela === 'Cadastrar Cliente'){
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <FormularioCadastroCliente tema="purple lighten-4" />
                 </>
             )
-        } else if (tela === 'Cadastrar Produto ou Serviço'){
+        } else if (tela === 'Produto ou Serviço'){
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <FormularioCadastroPS tema="purple lighten-4" />
                 </>
             )
         } else if (tela === 'Listagens'){
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <Listagens tema="purple lighten-4" />
                 </>
             )
         } else if (tela === 'Lista Clientes'){
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <ListaCliente tema="purple lighten-4" />
                 </>
             )
         } else if (tela === 'Lista Produtos'){
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <ListaProduto tema="purple lighten-4" />
                 </>
             )
         } else if (tela === 'Lista Serviços'){
             return (
                 <>
-                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Cadastrar Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
+                    <BarraNavegacao seletorView={seletorView} tema="purple lighten-4" botoes={['Home', 'Cadastrar Cliente', 'Produto ou Serviço', 'Listagens', 'Lista Clientes', 'Lista Produtos', 'Lista Serviços']} />
                     <ListaServico tema="purple lighten-4" />
                 </>
             )

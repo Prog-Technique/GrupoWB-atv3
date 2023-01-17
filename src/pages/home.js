@@ -5,9 +5,10 @@ export default function Home(props) {
         <><br /><br /><br /><br /><br /><br /><br />
         <br /><br /><br /><br /><br /><br /><br /><br />
         <div className="collection">
+            <a className={estilo}>.</a>
             <a className="collection-item">Seja bem-vindo ao</a>
-            <a className={estilo}>Grupo WB</a>
-            <a className="collection-item">S2</a>
+            <a className="collection-item">Grupo WB</a>
+            <a className={estilo}>.</a>
         </div></>
     )
 }

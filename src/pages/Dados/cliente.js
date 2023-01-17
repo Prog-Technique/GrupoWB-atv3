@@ -12,6 +12,7 @@ export default function ListaCliente(){
                             <th scope="col">Nome</th>
                             <th scope="col">Gênero</th>
                             <th scope="col">Ações</th>
+                            <th scope="col">Adicionar</th>
                         </tr>
                     </thead>
 
@@ -26,6 +27,12 @@ export default function ListaCliente(){
                                 <a href="#">Excluir</a>
                                 </div>
                             </td>
+                            <td data-label="Adicionar">
+                                <div className='Column'>
+                                <a href="#">Produto</a> <br />
+                                <a href="#">Serviço</a>
+                                </div>
+                            </td>
                         </tr>
 
                         <tr>
@@ -36,6 +43,12 @@ export default function ListaCliente(){
                                 <a href="/editar_cliente/2">Editar</a> <br />
                                 <a href="/clientes/2">Visualizar</a> <br />
                                 <a href="#">Excluir</a>
+                                </div>
+                            </td>
+                            <td data-label="Adicionar">
+                                <div className='Column'>
+                                <a href="#">Produto</a> <br />
+                                <a href="#">Serviço</a>
                                 </div>
                             </td>
                         </tr>
